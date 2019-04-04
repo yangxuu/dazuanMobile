@@ -1,0 +1,39 @@
+/* 新增样式 */
+.p-purple{display:inline-block;line-height:32px;font-size:16px;width:86px;height:32px;background:rgba(103,106,171,1);border-radius:5px;}
+.row .col-xs-new{padding:10px}
+.page-title-box .search{width:19px;height:27px;position: absolute;right:20px;top:6px}
+.page-title-box .search .search-img{width:19px;height:27px;vertical-align: middle}
+.row-four{padding:20px 10px;}
+.row-four .row-col{display: flex;justify-content: space-between;}
+.row-four .row-col .row-col-box{width:50%;height:111px;position: relative;background:linear-gradient(45deg,rgba(11,135,143,1),rgba(24,42,174,1));}
+.row-four .row-col .box-left{margin-left: 5px;}
+.row-four .row-col .box-top{margin-top: 5px;}
+.row-four .row-col .row-col-box .name{width:117px;height:29px;font-size:15px;font-family:PingFang-SC-Regular;font-weight:400;color:rgba(255,255,255,1);}
+.row-four .row-col .row-col-box .desc{ width:120px;height:60px;font-size:12px;color:rgba(255,237,210,1);}
+.row-four .row-col .row-col-box .out-box{position: absolute;width: 70%;height: 100%;right: 0;top: 50%;margin-top: -45px;}
+.row-four .row-col .row-col-box .icon-box{position: absolute;left: 2px;top: 50%;margin-top: -25px;width:40px;height:40px;}.row-four .row-col .row-col-box .icon-box .icon{width: 100%;}
+.item-list-box .box-img{width: 100%;height: 170px;overflow: hidden;}
+.item-list-box .box-img img{width:100%;}
+.row .table{width: 97%;margin: 80px auto 10px;border: 1px solid #b3b3b5;}
+.row .table tr td{border: 1px solid #b3b3b5;padding: 8px 0 8px 0;}
+.row .table tr .title{width: 20%;text-align: center;font-size:14px;background: #ebebec;color:rgba(88,88,88,1);}
+.row .table tr .des{width: 80%;font-size:14px;color:rgba(0,0,0,1);padding-left: 10px;}
+.title-pro{width: 100%;height: 80px;line-height: 80px;text-align: center;font-size: 17px;color:rgba(0,0,0,1);background: #ffffff;}
+.empty{width: 100%;height: 10px;background: #e7e7e8}
+.b-line{border-bottom:1px solid #dddddd;}
+.put-word{width:100%;height:50px;line-height: 50px;text-align: center;background: #ffffff;font-size:18px;color:rgba(0,0,0,1);}
+.global-form-box .ipt-name{height: 40px;border-bottom:1px solid rgba(146,146,146,1);border-top:1px solid rgba(146,146,146,1);padding-left:5px;line-height: 40px;background: #f1f2f6;font-size:15px;color:rgba(0,0,0,1);padding-right:10px}
+.global-form-box .ipt-box{height: 40px;line-height: 40px;background: #ffffff;}
+.global-form-box .bd-bottom{border-bottom:1px solid rgba(146,146,146,1);}
+.submit-height{height:200px;line-height:180px;background: #ffffff;}
+.bottom-address{border-bottom: 1px solid  rgba(170,170,170,1)}
+.pro-det{width: 100%;border: 1px solid #ebebec;}
+.pro-det .pro-det-tr{border-bottom:1px soild #ebebec; }
+.pro-det .pro-det-tr .td-head{width:30%;height:30px;line-height:30px;border: 1px solid rgba(179,179,181,1);background:#ebebec;padding-left: 10px;}
+.pro-det .pro-det-tr .td-foot{width:70%;height:30px;line-height:30px;padding-left: 10px;border: 1px solid rgba(179,179,181,1);}
+.detail-thing{width: 100%;position: relative;font-size: 13px; height:50px;line-height:50px;text-align:center;}
+.detail-thing .line{width: 40%;height:0.5px;border: 1px solid #ebebec; position: absolute;top:50%;}
+.detail-thing .left{left:0;}
+.detail-thing .right{right:0;}
+.pos-re{position: relative;}
+.pos-re .line{position: absolute;left:50%;top:50%;margin-top:-10px;width:1px;height:20px;border: 1px solid #ebebec;}
