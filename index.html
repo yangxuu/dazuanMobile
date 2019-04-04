@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>model1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href="css/bootstrap-font-awesome.min.css" rel="stylesheet">
+  <link href="css/swiper-3.3.1.min.css" rel="stylesheet">
+  <link href="css/main-v1.css?t=1" rel="stylesheet">
+  <link rel="stylesheet" href="css/model.css" rel="stylesheet">
+  <script src="js/vue.min.js"></script>
+  <script src="js/vue-router.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+ </head>
+ <body class="bg-f2">
+	<div id="app">
+		<transition :name="transitionName">
+			<router-view></router-view>
+		</transition>
+	
+		<div style="height:60px;"></div>
+		<div class="container pf b0 l0 r0 page-footer">
+			<div class="row">
+				<div class="col-xs-12 p-l-0 p-r-0">
+					<router-link to="/" class="block pc-20 fl">
+						<i class="icon icon-1"></i>
+						<span class="txt">首页</span>
+					</router-link>
+					<router-link to="/cate" class="block pc-20 fl">
+						<i class="icon icon-2"></i>
+						<span class="txt">产品</span>
+					</router-link>
+					<router-link to="/submit" class="block pc-20 fl">
+						<i class="icon icon-3"></i>
+						<span class="txt">咨询</span>
+					</router-link>
+					<router-link to="/about" class="block pc-20 fl">
+						<i class="icon icon-4"></i>
+						<span class="txt">企业</span>
+					</router-link>
+					<a href="tel:10086" class="block pc-20 fl">
+						<i class="icon icon-5"></i>
+						<span class="txt">电话</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="module/index.js" ></script>
+	<script src="module/cate.js" ></script>
+	<script src="module/submit.js" ></script>
+	<script src="module/about.js" ></script>
+	<script src="module/info.js" ></script>
+	<script type="text/javascript">
+		const router = new VueRouter({
+			routes: [
+				{ 
+					path: '/', 
+					component: page_index
+				},
+				{ 
+					path: '/cate', 
+					component: page_cate
+				},
+				{ 
+					path: '/submit', 
+					component: page_submit
+				},
+				{ 
+					path: '/about', 
+					component: page_about
+				},
+				{ 
+					path: '/info', 
+					component: page_info
+				}
+			]
+		});
+		var app = new Vue({
+			data(){
+				return {
+					transitionName: 'slide-right'
+				}
+			},
+			router : router,
+			el: '#app'
+		});
+	
+	</script>
+ </body>
+</html>
